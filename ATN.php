@@ -3,8 +3,7 @@
 /**************************************************************************
  * @file        ATN.php
  * @author      Reza Meshkat
- * @email       Meshkat@ymail.com
- * @site        RezaMeshkat.info
+ * @email       Meshkat  [@]  ymail  [.]  com
  * @date        2018
  */
 
