@@ -1,15 +1,8 @@
 # Adjacency To Nested set hierarchy converter for big data step by step in PHP (ATN)
 
-This Class is written in PHP for converting/updating/fixing hierarchy data from Adjacency Model to Nested set Model in a <b>large data set</b>.
-
-If you do not know anything about hierarchy models I advice you to visit following link :
-http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
-
-ATN is optimized for large data. It uses memory tables and fix your table gradually and step by step. If your data is not large, there are other much simpler ways to convert from Adjacency list Model to Nested set. Most of these codes out there are designed to do the same thing but in one shut. This is normally does the work for smaller data sets. However, as updating large data sets can take more time, you may get timeout errors, or experience downtime during conversion.
-
-<b>This class has created to convert/update/fix Nested set data in step by step and smooth process that does not affect running database during conversion. You can safely run ATN on your live data with out any downtime. We are updating our data regularly using ATN.php for more than 5 millions of records on a live busy tables.</b>
-
-
-
-
+ATN is a PHP-based Class for converting, updating, and fixing hierarchy data from the adjacency model to nested set model (large data set) step by step without affecting the running of the database during the conversion:
+• ATN is optimized for large data and is using memory tables to steadily fix the table step by step
+• For small data sets its possible to convert from the adjacency list model to nested set in a more straightforward manner (at once) but as large data sets require more time to convert it's best to avoid using those methods to prevent timeout errors and possible downtime
+• The ATN.php is regularly used for updating the large scale data, over 5 million records, on a busy live tables
+• For more information on hierarchy models visit: http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/
 
